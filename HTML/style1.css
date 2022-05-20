@@ -1,0 +1,122 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    word-spacing: 4;
+
+}
+
+.container {
+    display: flex;
+    background: #ddd;
+    justify-content: space-between;
+    padding: 0 25px;
+    align-items: center;
+    background: #242121 ;
+    margin: 0;
+    position: sticky;
+}
+
+.main-nav ul {
+    display: flex;
+    margin-left: 10px;
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+li{
+    margin-left: 20px;
+}
+
+.christina {
+    color: crimson;
+}
+
+h1{
+    color: white;
+}
+
+.job-title{
+    box-sizing: border-box;
+    width: 700px;
+    padding: 30px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 7px #ddd;
+}
+
+.greeting{
+    font-size: 2em;
+    font-weight: bold;
+    text-wrap: wrap;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.about-me{
+    display: inline-flex;
+    margin-top: 40px;
+    position: relative;
+}
+
+.index{
+    background-color: crimson;
+    width: 250px;
+    height: 220px;
+    position: absolute;
+    bottom: 70px;
+    z-index: -2;
+    margin-left:20px ;
+}
+
+img{
+    width:250px;
+    height: 250px;
+    margin-left: 30px;
+}
+
+.about-h3 {
+    margin: 0;
+    font-size: 2em;
+
+
+}
+
+.about-text{
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #f2f2f2;
+    height: 50px;
+}
+.footer {
+    align-items: center;
+}
+
+.contact {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 7px #ddd;
+    background-color: #f2f2f2;
+}
+
+.contact a {
+    color: black;
+}
+
+.contact-header {
+    text-align: center;
+}
